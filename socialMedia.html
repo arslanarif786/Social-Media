@@ -1,0 +1,133 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Meta</title>
+    <link rel="stylesheet" href="https://unicons.iconscout.com/release/v2.1.6/css/unicons.css">
+    <link rel="stylesheet" href="assets/css/style.css">
+
+
+</head>
+
+<body>
+
+
+    <nav>
+        <div class="container">
+            <h2 class="log">
+                Meta
+            </h2>
+
+            <div class="create">
+
+                <div class="profile-photo">
+                    <img src="assets/img/profile-1.jpg">
+
+                </div>
+                <div class="profile-link">
+                    <a href="profile.html"> Profile </a>
+                    <br>
+                    <a href="login.htm"> Log out </a>
+                </div>
+
+            </div>
+        </div>
+    </nav>
+
+
+
+    <!------------------------- MAIN -------------------------->
+    <main>
+        <div class="container">
+            <!--======================== RIGHT ==========================-->
+            <div class="right">
+                <div class="messages">
+                    <div class="heading">
+                        <h4>Users</h4><i class="uil uil-edit"></i>
+                    </div>
+                    <!------------ SEARCH BAR -------------->
+                    <div class="search-bar">
+                        <i class="uil uil-search"></i>
+                        <input type="search" placeholder="Search Users" id="message-search">
+                    </div>
+
+
+
+                    <!------------ MESSAGE -------------->
+                    <!----- MESSAGE ----->
+                    <div class="message">
+                        <div class="message-body" id="user-list">
+                            <!----------------------------- javascript APi calls --------------------->
+                        </div>
+                    </div>
+
+                </div>
+                <!------------ END OF MESSAGES -------------->
+
+            </div>
+
+            <!--======================== MIDDLE ==========================-->
+            <div class="middle">
+
+                <form class="create-post">
+                    <div class="profile-photo">
+                        <img src="assets/img/profile-1.jpg">
+                    </div>
+                    <input type="text" placeholder="Search Post" id="create-post">
+
+                </form>
+
+                <!------------------- FEEDS --------------------->
+                <div class="feeds" id="fee">
+
+
+
+                </div>
+                <!------------------------------- END OF FEEDS ------------------------------------>
+            </div>
+            <!--======================== END OF MIDDLE ==========================-->
+
+            <!--======================== LEFT ==========================-->
+            <div class="left">
+                <a class="profile">
+                    <div class="profile-photo">
+                        <img src="assets/img/profile-1.jpg">
+                    </div>
+                    <div class="handle">
+                        <h4>Diana Ayi</h4>
+                        <p class="text-muted">
+                            @dayi
+                        </p>
+                    </div>
+                </a>
+
+                <!-------------------- SIDEBAR ------------------------->
+                <!--======================== RIGHT ==========================-->
+                <div class="right">
+                    <div class="messages" id="tags-list">
+
+                    </div>
+                    <!------------ END OF MESSAGES -------------->
+
+                </div>
+                <!------------------- END OF SIDEBAR -------------------->
+            </div>
+            <!------------------- END OF LEFT -------------------->
+
+
+        </div>
+
+    </main>
+
+
+    <script src="assets/script/socialMedia.js"></script>
+    <script src="assets/script/userlist.js"></script>
+    <script src="assets/script/userpost.js"></script>
+    <script src="assets/script/taglist.js"></script>
+    
+</body>
+
+</html>

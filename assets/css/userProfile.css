@@ -1,0 +1,21 @@
+body {
+    background-color: #f5f6fa;
+    font-family: 'Roboto', sans-serif;
+
+}
+
+
+.parent-container{
+    margin: 30px 30px 10px 30px;
+}
+
+.display-user {
+    margin: 10px 10px 10px 10px;
+    padding: 10px 10px 10px 10px;
+    border: 1px solid grey;
+    border-radius: 7px;
+    text-align: left;
+    color: black;
+    background-color: rgb(245, 207, 213);
+}
+

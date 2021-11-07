@@ -1,8 +1,8 @@
 // fetch data in post form
+range = 10;
+function postCall(range) {
 
-function postCall() {
-
-    const req = fetch('https://dummyapi.io/data/v1/user/60d0fe4f5311236168a109ca/post?limit=10', 
+    const req = fetch('https://dummyapi.io/data/v1/user/60d0fe4f5311236168a109ca/post?limit=10' + range, 
     {
         method: 'GET', headers: {
             'app-id': "6184c9cba6776e70939f5e77",
@@ -81,7 +81,7 @@ function postCall() {
 
     });
 }
-postCall()
+postCall(range)
 // var post=10;
 // postCall();
 // window.onscroll = function()
@@ -98,3 +98,4 @@ postCall()
 //     postCall(post);
 //    }
 // }
+
